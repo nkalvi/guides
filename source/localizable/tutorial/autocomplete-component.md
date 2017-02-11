@@ -113,6 +113,7 @@ Next, in our `app/templates/rentals.hbs` file, we'll add our new `list-filter` c
   <h2>Welcome!</h2>
   <p>
     We hope you find exactly what you're looking for in a place to stay.
+    <br>Browse our listings, or use the search box below to narrow your search.
   </p>
   {{#link-to 'about' class="button"}}
     About Us
